@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Facebook login Scenario",
+        "description": "",
+        "id": "login-to-facebook-application;facebook-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15795244563,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open chrome browser",
+            "match": {
+              "location": "LoginFBStepFile.open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 846129488,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginFBStepFile.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261692861,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginFBStepFile.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2321989132,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginFBStepFile.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to facebook application",
+    "description": "",
+    "id": "login-to-facebook-application",
+    "keyword": "Feature",
+    "uri": "FacebookLogin.feature"
+  }
+]
