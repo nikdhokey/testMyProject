@@ -25,11 +25,12 @@ public class LoginFBStepFile
 	}
 
 	@When("^user enters username and password$")
-	public void user_enters_username_and_password()
+	public void user_enters_username_and_password() throws Throwable
 	{
 		System.out.println("Enter the Username and Password");
 	       driver.findElement(By.id("email")).sendKeys("nikita123@gmail.com");
 	       driver.findElement(By.id("pass")).sendKeys("nikita@123");
+	       Thread.sleep(3000);
 	}
 
 	@Then("^user clicks on login button$")
